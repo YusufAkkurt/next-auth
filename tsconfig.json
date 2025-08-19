@@ -19,6 +19,8 @@
       }
     ],
     "paths": {
+      "@constants/*": ["./src/lib/constants/*"],
+      "@lib/*": ["./src/lib/*"],
       "@src/*": ["./src/*"]
     }
   },
