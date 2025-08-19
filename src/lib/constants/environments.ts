@@ -1,7 +1,8 @@
 export const environments = {
-  nextAuth: {
-    secret: process.env.AUTH_SECRET || "",
-    auth0ClientId: process.env.AUTH_Auth0_CLIENT_ID || "",
-    auth0ClientSecret: process.env.AUTH_Auth0_CLIENT_SECRET || "",
+  nextAuthSecret: process.env.AUTH_SECRET || "",
+  auth0: {
+    domain: process.env.AUTH0_DOMAIN || "",
+    clientId: process.env.AUTH0_CLIENT_ID || "",
+    clientSecret: process.env.AUTH0_CLIENT_SECRET || "",
   },
 } as const;
